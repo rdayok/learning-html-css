@@ -1,0 +1,10 @@
+Metadatat simply means data that describes data and 
+html has a way it allows us to add metadata to our document.
+the meta element is added to the head tag in our html file
+and we have a couple of them.
+For example the <meta charset="utf-8"> 
+This specifies the character encoding scheme for this 
+the project which is like the universal character set that
+includes almost all the character for human language.
+The meta element comes with some attributes we would see in the
+the code in this project
