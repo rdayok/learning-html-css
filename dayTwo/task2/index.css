@@ -1,0 +1,19 @@
+.inputAndLabel{
+  display: flex;
+}
+
+.inputs input{
+  display: block;
+  margin-top: 13.5px;
+  margin-left: 5px;
+}
+button{
+  padding: 10px;
+  padding-left: 107px;
+  padding-right: 107px;
+  border-radius: 15px;
+  border: none;
+  background-color: aquamarine;
+}
+
+

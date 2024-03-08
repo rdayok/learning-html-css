@@ -1,0 +1,12 @@
+div{
+    background-color: blue;
+    width: 50vw;
+    height: 50vh;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
