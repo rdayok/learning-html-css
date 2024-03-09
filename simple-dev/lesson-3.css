@@ -2,11 +2,11 @@
   background-color: black;
   color: white;
   border: none;
-  height: 35px;
-  width: 120px;
+  padding: 10px 16px;
   cursor: pointer;
   margin-bottom: 5px;
   margin-right: 10px;
+  vertical-align: top;
   transform: opacity 0.15s;
 }
 .request-button:hover {
@@ -16,12 +16,12 @@
 .add-button {
   background-color: rgba(255, 221, 30, 0.868);
   border: none;
-  height: 32px;
-  width: 160px;
+  padding: 9px 70px;
   border-radius: 16px;
   font-weight: bold;
   cursor: pointer;
   margin-right: 10px;
+  vertical-align: top;
   transition: background-color 0.15s;
 }
 .add-button:hover {
@@ -33,10 +33,10 @@
   color: white;
   font-weight: bold;
   border: none;
-  height: 35px;
-  width: 90px;
+  padding: 10px 16px;
   border-radius: 5px;
   cursor: pointer;
+  vertical-align: top;
   transition: box-shadow 0.15s;
 }
 
@@ -49,11 +49,11 @@
   color: white;
   font-weight: bold;
   border: none;
-  height: 35px;
-  width: 120px;
+  padding: 10px 16px;
   border-radius: 3px;
   margin-bottom: 5px;
   cursor: pointer;
+  vertical-align: top;
   transform: background-color 0.15s;
 }
 .getStarted-button:hover {
@@ -66,12 +66,12 @@
   border-width: 1.5px;
   border-color: rgb(108, 117, 125);
   color: rgb(108, 117, 125);
-  height: 35px;
-  width: 120px;
+  padding: 10px 16px;
   border-radius: 3px;
   cursor: pointer;
   font-weight: bold;
   margin-left: 10px;
+  vertical-align: top;
   transition: background-color 0.15s, color 0.15s;
 }
 .download-button:hover {
@@ -83,11 +83,11 @@
   color: white;
   font-weight: bold;
   border: none;
-  height: 35px;
-  width: 220px;
+  padding: 9px 30px;
   border-radius: 35px;
   cursor: pointer;
   margin-right: 10px;
+  vertical-align: top;
   transition: background-color 0.15s;
 }
 .apply-button:hover {
@@ -98,13 +98,13 @@
   background-color: white;
   border-style: solid;
   border-color: rgb(10, 102, 194);
-  height: 35px;
-  width: 75px;
+  padding: 9px 17px;
   border-radius: 20px;
   border-width: 1.2px;
   color: rgb(10, 102, 194);
   font-weight: bold;
   cursor: pointer;
+  vertical-align: top;
   transition: background-color 0.15s, border-width 0.15s;
 }
 .save-button:hover {
@@ -129,11 +129,11 @@ a:hover {
   background-color: rgba(255, 221, 30, 0.868);
   font-weight: bold;
   border: none;
-  height: 35px;
-  width: 120px;
+  padding: 10px 20px;
   border-radius: 20px;
   margin-right: 10px;
   cursor: pointer;
+  vertical-align: top;
   transition: background-color 0.15s, opacity 0.15s;
 }
 .amazon-add-button:hover {
@@ -146,11 +146,11 @@ a:hover {
   background-color: rgb(255, 164, 28);
   font-weight: bold;
   border: none;
-  height: 35px;
-  width: 120px;
+  padding: 10px 30px;
   border-radius: 20px;
   margin-right: 10px;
   cursor: pointer;
+  vertical-align: top;
   transition: background-color 0.15s, opacity 0.15s;
 }
 .amazon-buy-button:hover {
