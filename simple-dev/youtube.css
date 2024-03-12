@@ -1,4 +1,11 @@
 .thumbnail {
   width: 300px;
-  object-fit: contain;
-}   
+  display: block;
+  /* object-fit: contain; */
+}
+.video-title {
+  width: 300px;
+}
+.video-author,
+.video-stats {
+ }
