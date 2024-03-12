@@ -1,11 +1,16 @@
+.search-bar {
+  display: block;
+}
 .thumbnail {
   width: 300px;
-  display: block;
+  /* display: block; */
   /* object-fit: contain; */
 }
 .video-title {
-  width: 300px;
 }
-.video-author,
-.video-stats {
- }
+.video-preview {
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 15px;
+}
