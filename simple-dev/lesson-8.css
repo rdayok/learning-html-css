@@ -9,3 +9,18 @@
   border-radius: 5px;
   outline: none;
 }
+.surveyText {
+  width: 220px;
+  font-family: Arial;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.yes-button {
+  padding: 3px 10px;
+  cursor: pointer;
+}
+.no-button {
+  padding: 3px 13px;
+  cursor: pointer;
+}
