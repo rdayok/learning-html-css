@@ -56,7 +56,7 @@ label {
   color: rgb(117, 117, 117);
 }
 .agreeJoin {
-  background-color: rgb(10, 102, 194);
+  background-color: rgb(8, 102, 255);
   border: none;
   color: white;
   padding: 12px;
@@ -84,7 +84,7 @@ label {
   outline: none;
 }
 .tweet {
-  background-color: rgb(10, 102, 194);
+  background-color: rgb(8, 102, 255);
   border: none;
   color: white;
   padding: 7px 15px;
