@@ -42,3 +42,6 @@ p {
   column-gap: 16px;
   row-gap: 40px;
 }
+.channelPicture{
+  background-color: gray;
+}
