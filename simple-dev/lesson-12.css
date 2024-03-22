@@ -1,3 +1,6 @@
+body {
+  font-family: Arial;
+}
 .flexbox1 {
   display: flex;
   flex-direction: row;
@@ -49,4 +52,63 @@
 }
 .flexbox4 > div {
   background-color: pink;
+}
+.socialMediaStats {
+  width: 300px;
+  border: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: rgb(208, 207, 207);
+  padding: 0px 10px;
+}
+.home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.home > p {
+  margin: 0px;
+}
+.homeCount {
+  font-size: 12px;
+  padding: 3px 10px;
+  background-color: rgb(54, 129, 249);
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.notifications {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.notifications > p {
+  margin: 0px;
+}
+.notificationsCount {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 3px 10px;
+  background-color: rgb(54, 129, 249);
+  color: white;
+  border-radius: 10px;
+}
+.messages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 0px 10px;
+}
+.messages > p {
+  margin: 0px;
+}
+.messagesCount {
+  background-color: rgb(54, 129, 249);
+  color: white;
+  padding: 3px 10px;
+  font-weight: bold;
+  font-size: 12px;
+  border-radius: 10px;
 }
