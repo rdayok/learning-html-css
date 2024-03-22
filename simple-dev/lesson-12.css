@@ -149,3 +149,40 @@ body {
   margin-right: 10px;
   cursor: pointer;
 }
+.tweeter {
+  width: 350px;
+}
+.friend {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0px;
+}
+img {
+  width: 50px;
+  border-radius: 25px;
+  margin: 10px;
+}
+
+.friendDetail {
+  flex: 1;
+}
+.friendDetail > p {
+  margin: 0px;
+  color: gray;
+  line-height: 22px;
+}
+#name {
+  font-weight: bold;
+  color: black;
+}
+.followButton {
+  border: none;
+  padding: 7px 15px;
+  border-radius: 5px;
+  background-color: rgb(54, 129, 249);
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
