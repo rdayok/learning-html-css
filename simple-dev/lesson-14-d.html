@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 14 Exercises - Position Fiexed</title>
+    <style>
+      body {
+        height: 3000px;
+        font-family: Arial;
+      }
+      .rightbar {
+        position: fixed;
+        width: 100px;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        background-color: green;
+        color: white;
+      }
+      .backgroundOverlay {
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        background-color: rgba(0, 0, 0, 0.7);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .myModal {
+        background-color: white;
+        padding: 10px 300px 10px 20px;
+        border-radius: 10px;
+      }
+      .myModal > button {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="rightbar">right sidebar</div>
+    <div class="backgroundOverlay">
+      <div class="myModal">
+        <h3>Modal Title</h3>
+        <p>This is a modal</p>
+        <button>Close</button>
+      </div>
+    </div>
+  </body>
+</html>

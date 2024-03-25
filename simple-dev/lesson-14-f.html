@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 14 Exercises - Position Fixed</title>
+    <style>
+      body {
+        height: 3000px;
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial;
+      }
+      .firstSidebar {
+        position: fixed;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        width: 50px;
+        background-color: rgb(33, 33, 33);
+        padding: 15px 10px;
+      }
+      .displayPicture {
+        height: 50px;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+      }
+      .secondSidebar {
+        position: fixed;
+        top: 0px;
+        bottom: 0px;
+        left: 70px;
+        background-color: rgb(55, 55, 55);
+        padding: 15px 15px;
+        width: 150px;
+      }
+      .sidebarHeader {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .info {
+        color: white;
+      }
+      .createNew {
+        color: rgb(150, 150, 150);
+        font-size: 25px;
+        cursor: pointer;
+      }
+      .secondSidebar > p {
+        color: rgb(150, 150, 150);
+        margin-bottom: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="firstSidebar">
+      <img
+        class="displayPicture"
+        src="youtube-clone/images/pic.webp"
+        alt="display picture"
+      />
+      <img
+        class="displayPicture"
+        src="youtube-clone/images/pic4.webp"
+        alt="display picture"
+      />
+      <img
+        class="displayPicture"
+        src="youtube-clone/images/pic.webp"
+        alt="display picture"
+      />
+    </div>
+    <div class="secondSidebar">
+      <div class="sidebarHeader">
+        <div class="info">INFO</div>
+        <div class="createNew">+</div>
+      </div>
+      <p># new-videos</p>
+      <p># updates</p>
+      <p># faq</p>
+    </div>
+  </body>
+</html>
