@@ -1,0 +1,87 @@
+body {
+  font-family: Arial;
+}
+.flexbox1 {
+  display: flex;
+}
+.flexbox1Item1 {
+  height: 50px;
+  width: 100px;
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+}
+.flexbox1Item1 > p {
+  background-color: black;
+  color: white;
+}
+.flexbox1Item2 {
+  height: 50px;
+  width: 200px;
+  background-color: lightblue;
+}
+
+.row2 {
+  display: flex;
+  justify-content: space-between;
+}
+.row1 > p {
+  margin: 0px;
+}
+.row2 > p {
+  margin: 0px;
+  background-color: black;
+  color: white;
+}
+
+.allInbox {
+  width: 355px;
+  border: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: rgb(208, 207, 207);
+  padding: 0px 10px;
+  padding-bottom: 10px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+}
+.header {
+  font-size: 11px;
+  font-weight: 550;
+  color: gray;
+}
+.messageBox {
+  display: flex;
+  align-items: center;
+}
+.senderProfilePicture {
+  height: 50px;
+  border-radius: 30px;
+  margin: 10px;
+}
+.messageHeader {
+  display: flex;
+  justify-content: space-between;
+}
+.messageHeader > p {
+  margin: 0px;
+  font-weight: bold;
+}
+#time {
+  font-weight: normal;
+  font-size: 12px;
+  color: gray;
+}
+.messageDetail {
+  width: 280px;
+}
+.messageDetail > p {
+  margin: 0px;
+}
+.messageSubHead {
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 20px;
+}
+.message {
+  font-size: 13px;
+}
