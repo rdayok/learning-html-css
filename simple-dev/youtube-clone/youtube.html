@@ -34,6 +34,7 @@
         <input class="searchBar" type="text" placeholder="Search" />
         <button class="searchButton">
           <img class="searchIcon" src="icons/search.svg" alt="search icon" />
+          <div class="toolTip">Search</div>
         </button>
         <button class="voiceSearchButton">
           <img
@@ -41,15 +42,23 @@
             src="icons/voice-search-icon.svg"
             alt="voice search icon"
           />
+          <div class="toolTip">Search with your voice</div>
         </button>
       </div>
       <div class="rightSection">
-        <img class="uploadIcon" src="icons/upload.svg" alt="upload icon" />
-        <img
-          class="youtubeAppsIcon"
-          src="icons/youtube-apps.svg"
-          alt="youtube apps icon"
-        />
+        <div class="uploadIconContainer">
+          <img class="uploadIcon" src="icons/upload.svg" alt="upload icon" />
+          <div class="toolTip">Create</div>
+        </div>
+        <div class="youtubeAppsIconContainer">
+          <img
+            class="youtubeAppsIcon"
+            src="icons/youtube-apps.svg"
+            alt="youtube apps icon"
+          />
+          <div class="toolTip">YouTube Apps</div>
+        </div>
+
         <div class="notificationsIconContainer">
           <img
             class="notificationIcon"
@@ -57,6 +66,7 @@
             alt="notification icon"
           />
           <div class="notificationsCount">3</div>
+          <div class="toolTip">Notifications</div>
         </div>
 
         <img
@@ -67,7 +77,33 @@
       </div>
     </div>
 
-    <div class="sidebar">sidebar</div>
+    <div class="sidebar">
+      <div class="sideBarLink">
+        <img src="icons/hamburger-menu.svg" alt="home icon" />
+        <div>Home</div>
+      </div>
+      <div class="sideBarLink">
+        <img src="icons/hamburger-menu.svg" alt="Explore icon" />
+        <div>Explore</div>
+      </div>
+      <div class="sideBarLink">
+        <img src="icons/hamburger-menu.svg" alt="subscriptions icon" />
+        <div>Subscriptions</div>
+      </div>
+      <div class="sideBarLink">
+        <img src="icons/hamburger-menu.svg" alt="originals icon" />
+        <div>Originals</div>
+      </div>
+      <div class="sideBarLink">
+        <img src="icons/hamburger-menu.svg" alt="youtube music icon" />
+        <div>YouTube Music</div>
+      </div>
+      <div class="sideBarLink">
+        <img src="icons/hamburger-menu.svg" alt="library icon" />
+        <div>Library</div>
+      </div>
+    </div>
+
     <div class="videoGrid">
       <div class="video-preview">
         <div class="thumbnailRow">

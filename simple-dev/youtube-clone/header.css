@@ -36,7 +36,6 @@
 .searchBar {
   flex: 1;
   height: 36px;
-  font-size: 16px;
   padding-left: 10px;
   border-width: 1px;
   border-style: solid;
@@ -52,9 +51,8 @@
 }
 
 .searchButton {
-  padding: 6px 15px;
-  display: flex;
-  align-items: center;
+  height: 39px;
+  width: 66px;
   background-color: rgb(240, 240, 240);
   border-width: 1px;
   border-style: solid;
@@ -62,6 +60,42 @@
   margin-left: -1px;
   margin-right: 10px;
   cursor: pointer;
+}
+.searchButton,
+.voiceSearchButton,
+.uploadIconContainer,
+.youtubeAppsIconContainer,
+.notificationsIconContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.searchButton .toolTip,
+.voiceSearchButton .toolTip,
+.uploadIconContainer .toolTip,
+.youtubeAppsIconContainer .toolTip,
+.notificationsIconContainer .toolTip {
+  font-family: Roboto, Arial;
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 2px;
+  font-size: 12px;
+  bottom: -30px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.searchButton:hover .toolTip,
+.voiceSearchButton:hover .toolTip,
+.uploadIconContainer:hover .toolTip,
+.youtubeAppsIconContainer:hover .toolTip,
+.notificationsIconContainer:hover .toolTip {
+  opacity: 1;
 }
 .searchIcon {
   height: 25px;
@@ -89,6 +123,7 @@
 }
 .uploadIcon {
   height: 24px;
+  cursor: pointer;
 }
 .youtubeAppsIcon {
   height: 24px;
@@ -96,16 +131,14 @@
 .notificationIcon {
   height: 24px;
 }
-.notificationsIconContainer {
-  position: relative;
-}
+
 .notificationsCount {
   position: absolute;
   top: -1px;
   right: -3px;
   background-color: rgb(200, 0, 0);
   color: white;
-  font-family: Roboto, Arial; 
+  font-family: Roboto, Arial;
   font-size: 10px;
   padding: 2px 5px;
   border-radius: 10px;
