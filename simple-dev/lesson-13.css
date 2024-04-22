@@ -131,4 +131,5 @@ body {
 }
 .youtubeURL {
   color: gray;
+  cursor: pointer;
 }
