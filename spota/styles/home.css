@@ -5,7 +5,7 @@ body {
   margin: 0px;
 }
 .navBar {
-  position: fixed;
+  position: relative;
   top: 0px;
   left: 100px;
   right: 100px;
@@ -63,7 +63,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: fixed;
+  position: relative;
   top: 0px;
   bottom: 0px;
   right: 100px;
@@ -119,7 +119,7 @@ body {
 .rightSection {
   width: 506px;
   border: solid;
-  position: fixed;
+  position: relative;
   top: 0px;
   right: 100px;
   bottom: 0px;

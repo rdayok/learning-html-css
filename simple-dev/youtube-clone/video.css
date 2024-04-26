@@ -8,11 +8,11 @@
   line-height: 20px;
   margin-bottom: 10px;
 }
-
-.profilePicture {
-  width: 36px;
-  border-radius: 50px;
+.video-title a {
+  text-decoration: none;
+  color: black;
 }
+
 .videoInfoGrid {
   display: grid;
   grid-template-columns: 50px 1fr;
@@ -36,17 +36,74 @@
   column-gap: 16px;
   row-gap: 40px;
 }
-
+@media (max-width: 750px) {
+  .videoGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media(min-width: 751px) and (max-width: 999px){
+  .videoGrid{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (min-width: 1000px) {
+  .videoGrid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
 .videoTime {
   background-color: black;
   color: white;
   position: absolute;
-  bottom: 10px;
+  bottom: 8px;
   right: 5px;
   font-size: 12px;
-  font-family: Roboto, Arial;
+ 
   font-weight: 500;
   padding: 4px;
-  border-radius: 2px; 
+  border-radius: 2px;
 }
- 
+.channelPicture {
+}
+.profilePicture {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  position: relative;
+  cursor: pointer;
+}
+.profilePicture img {
+  width: 40px;
+  border-radius: 50px;
+}
+
+.profilePicture:hover .profileToolTip {
+  opacity: 1;
+}
+.profileToolTip {
+  border-width: 1px;
+  border-color: rgb(240, 240, 240);
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.05);
+  border-style: solid;
+  padding: 15px;
+  display: flex;
+  position: absolute;
+  bottom: -80px;
+  white-space: nowrap;
+  background-color: white;
+  border-radius: 5px;
+  z-index: 10;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.8;
+}
+.profileToolTip img {
+  margin-right: 10px;
+}
+.profileToolTip p {
+  line-height: 20px;
+  font-weight: bold;
+}
+.profileToolTip .videoStats {
+  font-weight: normal;
+}
