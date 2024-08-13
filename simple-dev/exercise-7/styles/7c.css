@@ -1,0 +1,9 @@
+.thumbnail{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: left;
+  border-radius: 100px;
+  border-style: solid;
+  border-color: mistyrose;
+}

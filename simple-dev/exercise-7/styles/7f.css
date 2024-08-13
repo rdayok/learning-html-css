@@ -1,0 +1,29 @@
+*{
+  font-family: Arial;
+}
+p{
+  margin: 0px;
+}
+label{
+  color: rgb(97, 97, 97);
+  font-size: 12px;
+}
+.email-input{
+  display: block;
+  width: 250px;
+  padding: 5px;
+  margin-top: 3px;
+  outline: none;
+}
+.prompt-text{
+  font-size: 10.5px;
+  margin: 13px 0px;
+  color: rgb(97, 97, 97)
+}
+button{
+  background-color: rgb(10, 107, 233);
+  color: white;
+  border: none;
+  padding: 10px 92px;
+  border-radius: 20px;
+}
