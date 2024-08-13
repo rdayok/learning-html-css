@@ -1,0 +1,22 @@
+p{
+  font-family: Arial;
+  margin: 0px 0px;
+}
+.title{
+  font-weight: bold;
+}
+.freecodecamp{
+  color: rgb(108, 117, 135);
+  font-weight: normal;
+  
+}
+.description{
+  width: 500px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  line-height: 20px;
+}
+.username{
+  color: rgb(0, 166, 255);
+  cursor: pointer;
+}

@@ -1,0 +1,30 @@
+p{
+  font-family: Arial;
+  margin: 0px 0px;
+  text-align: center;
+}
+.new{
+  color: orange;
+  margin-bottom: 5px;
+}
+.sub-title{
+  font-weight: bold;
+  font-size: 25px;
+}
+.title{
+  font-weight: bold;
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+.buy-now-button{
+  background-color: rgb(10, 103, 194);
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+div{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
