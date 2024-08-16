@@ -1,0 +1,12 @@
+p{
+  width: 200px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.no-button{
+  padding-left:  9px;
+  padding-right: 9px;
+}
+button{
+  cursor: pointer;
+}

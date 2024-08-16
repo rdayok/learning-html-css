@@ -1,0 +1,23 @@
+input{
+  padding: 7px 10px;
+  border-radius: 7px;
+  border-style: solid;
+  border-color: gainsboro;
+  border-width: 2px;
+  outline: none; 
+  width: 120px;
+  margin: 5px 0px;
+}
+.email-input{
+  display: block;
+  width: 267px;
+}
+button{
+  background-color: rgb(38, 122, 232);
+  border: none;
+  padding: 14px 120px;
+  border-radius: 7px;
+  margin-top: 4px;
+  color: white;
+  font-weight: bold;
+}
