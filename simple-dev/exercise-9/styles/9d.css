@@ -1,0 +1,17 @@
+*{
+  color: white;
+  font-family: Arial;
+}
+.container{
+  background-color: black;
+  width: 370px;
+  padding: 20px 15px
+}
+h3{
+  font-size: 24.5px;
+  margin: 0px;
+}
+p{
+  margin: 10px 0px 0px 0px;
+  color: rgb(139, 138, 138);
+}

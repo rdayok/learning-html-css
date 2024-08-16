@@ -1,0 +1,39 @@
+.container{
+  width: 125px;
+  height: 200px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: gainsboro;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.15);
+  display: inline-block;
+  margin-right: 10px;
+}
+img{
+  width: 125px;
+
+}
+p{
+  margin: 0px;
+  font-family: Arial;
+  margin: 0px 5px;
+}
+
+.user-name{
+  font-weight: bold;
+  margin-top: 3px;
+  cursor:pointer;
+}
+.mutual-friends{
+  font-size: 10px;
+  color: rgb(120, 120, 120);
+}
+button{
+  background-color: rgb(56, 128, 224);
+  border: none;
+  border-radius: 3px;
+  color: white;
+  padding: 8px 12px;
+  margin: 5px 0px 0px 5px;
+  font-size: 10px;
+  cursor: pointer;
+}
