@@ -1,0 +1,30 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(132, 61, 168);
+  padding:0px 10px
+}
+p{
+  color: white;
+  font-family: Arial;
+  cursor: pointer;
+}
+input{
+  flex: 1;
+  margin: 0px 80px;
+  padding:6px 10px;
+  font-size: 12px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+button{
+  color: white;
+  background-color: rgb(132, 61, 168);
+  border-color: gainsboro;
+  border-style: solid;
+  border-width: 1px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
