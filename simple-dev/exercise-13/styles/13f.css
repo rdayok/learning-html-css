@@ -1,0 +1,57 @@
+p{
+  margin: 0px;
+  font-family: Roboto, Arial;
+}
+.post-card{
+  width: 390px;
+  display: flex;
+  align-items: start;
+  padding: 10px;
+}
+.profile-picture{
+  width: 50px;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+.display-name-and-username{
+  display: flex;
+}
+.display-name{
+  font-weight: bold;
+  margin-right: 5px;
+  margin-bottom: 3px;
+}
+.username{
+  color: rgb(120, 120, 120)
+}
+.post-caption{
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.link{
+  border-style: solid;
+  border-width: 1.6px;
+  border-radius: 15px;
+  border-color: rgb(225, 225, 225);
+  display: flex;
+}
+.link-thumbnail{
+  background-color: rgb(225, 225, 225);
+  width: 150px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  margin: -1px;
+
+}
+.link-preview{
+  padding: 15px;
+}
+.link-url{
+  color: rgb(106, 106, 106);
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.link-caption{
+  line-height: 20px;
+}
